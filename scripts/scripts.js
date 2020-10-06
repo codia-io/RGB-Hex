@@ -6,14 +6,14 @@ function menu_animation() {
     if (scroll < checkpoint) {
         // original scroll place
         $("header").removeClass("scroll-effect-on");
-        $("#img-logo").removeClass("img-logo-on mt-1");
+        $("#img-logo").removeClass("img-logo-on mt-2");
         $("header>div").addClass("mt-3");
         $("header").removeClass("border-bot");
         opacity = 1 - scroll / checkpoint;
     } else {
         //when scrolled down
         $("header").addClass("scroll-effect-on");
-        $("#img-logo").addClass("img-logo-on mt-1");
+        $("#img-logo").addClass("img-logo-on mt-2");
         $("header>div").removeClass("mt-3");
         $("header").addClass("border-bot");
         opacity = 0;
