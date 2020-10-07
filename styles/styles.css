@@ -91,3 +91,12 @@ h1 {
     transform: scale(1.07, 1.07);
 
 }
+
+#footer-img {
+    height: auto;
+    width: 16em;
+}
+
+.footer-text {
+    font-size: 1.2rem;
+}
