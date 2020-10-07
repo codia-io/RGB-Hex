@@ -4,14 +4,14 @@ const lg_breakpoint = 980;
 
 function top_effect() {
     $("header").removeClass("scroll-effect-on");
-    $("#img-logo").removeClass("img-logo-on mt-2");
+    $("#img-logo").removeClass("img-logo-on");
     $("header>div").addClass("mt-3");
     $("header").removeClass("border-bot");
 }
 
 function bottom_effect() {
     $("header").addClass("scroll-effect-on");
-    $("#img-logo").addClass("img-logo-on mt-2");
+    $("#img-logo").addClass("img-logo-on");
     $("header>div").removeClass("mt-3");
     $("header").addClass("border-bot");
 
@@ -35,6 +35,7 @@ function menu_animation() {
         }
     } else {
         bottom_effect();
+        document.querySelector("#main-text").style.opacity = 1;
         $("header").removeClass("fixed-top");
     }
 
