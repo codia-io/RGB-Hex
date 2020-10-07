@@ -100,3 +100,7 @@ h1 {
 .footer-text {
     font-size: 1.2rem;
 }
+
+.btn-service:hover {
+    color: white !important;
+}
