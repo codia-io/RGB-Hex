@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/contact-main.css" />
+    <link rel="stylesheet" href="./styles/contact-util.css" />
+
 </head>
 
 <body>
@@ -48,7 +51,7 @@
                                     <a class="nav-link text-white font-weight-bold " href="#Our-team">Team</a>
                                 </li>
                                 <li class="nav-item ml-lg-4">
-                                    <a class="nav-link text-white font-weight-bold " href="contact-us.html">Contact
+                                    <a class="nav-link text-white font-weight-bold " href="#contact-us">Contact
                                         Us</a>
                                 </li>
                             </ul>
@@ -64,10 +67,10 @@
     <section id="showcase" class="">
         <div id="main-text" class="col-12 text-center">
             <h1 class="text-white font-weight-bold mx-4">
-                Hex: A good ass website creation company
+                Like what we do ? contact us now
             </h1>
             <h5 class="text-white">
-                We create good shit for shitty people, give us your money !
+                and see us work our magic
             </h5>
             <!-- <button type="button" class="btn btn-dark text-white text-uppercase font-weight-bold">
                 Hire us
@@ -77,110 +80,58 @@
             </button> -->
         </div>
     </section>
+    <!-- copy pasta contact -->
+    <div class="container-contact100 py-5">
+        <div class="wrap-contact100">
+            <form class="contact100-form validate-form">
+                <span class="contact100-form-title">
+                    Contact Us
+                </span>
 
-    <!-- services -->
-    <section id="services">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h1 class="text-uppercase pb-4">Services</h1>
+                <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+                    <span class="label-input100">FULL NAME *</span>
+                    <input class="input100" type="text" name="name" placeholder="Enter Your Name">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-12 text-center pr-4 ">
-                    <i class="fa fa-laptop fa-4x "></i>
-                    <h4 class="font-weight-bold text-capitalize  pt-3  ">Website creation</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia cupiditate quod blanditiis
-                        eligendi, sequi illum reprehenderit pariatur commodi, aspernatur maxime voluptates earum
-                        asperiores optio! Nulla placeat labore cumque atque.</p>
-                    <a href="contact-us.html">
-                        <button type="button" class="btn btn-outline-dark text-info text-uppercase font-weight-bold btn-service">
-                            contact us
-                        </button></a>
+
+                <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Enter Your Email (e@a.x)">
+                    <span class="label-input100">Email *</span>
+                    <input class="input100" type="text" name="email" placeholder="Enter Your Email ">
                 </div>
-                <div class="col-lg-4 col-12 text-center px-4 mt-4 mt-lg-0">
-                    <i class="fa fa-laptop fa-4x"></i>
-                    <h4 class="font-weight-bold text-capitalize  pt-3 ">Maintenance </h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia cupiditate quod blanditiis
-                        eligendi, sequi illum reprehenderit pariatur commodi, aspernatur maxime voluptates earum
-                        asperiores optio! Nulla placeat labore cumque atque.</p>
-                    <button type="button" class="btn btn-outline-dark text-info text-uppercase font-weight-bold btn-service">
-                        check up our plans
+
+                <div class="wrap-input100 bg1 rs1-wrap-input100">
+                    <span class="label-input100">Phone</span>
+                    <input class="input100" type="text" name="phone" placeholder="Enter Number Phone">
+                </div>
+
+                <div class="wrap-input100 input100-select bg1">
+                    <span class="label-input100">Needed Services *</span>
+                    <div>
+                        <select class="js-select2" name="service">
+                            <option>Please chooses</option>
+                            <option>eCommerce Bussiness</option>
+                            <option>UI/UX Design</option>
+                            <option>Online Services</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate="Please Type Your Message">
+                    <span class="label-input100">Message</span>
+                    <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+                </div>
+
+                <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn">
+                        <span>
+                            Submit
+                            <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                        </span>
                     </button>
                 </div>
-                <div class="col-lg-4 col-12 text-center px-4 mt-4 mt-lg-0">
-                    <i class="fa fa-laptop fa-4x"></i>
-                    <h4 class="font-weight-bold text-capitalize pt-3 ">Web apps creation</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia cupiditate quod blanditiis
-                        eligendi, sequi illum reprehenderit pariatur commodi, aspernatur maxime voluptates earum
-                        asperiores optio! Nulla placeat labore cumque atque.</p>
-                    <button type="button" class="btn btn-outline-dark text-info text-uppercase font-weight-bold btn-service">
-                        check our works
-                    </button>
-                </div>
-            </div>
+            </form>
         </div>
-    </section>
-
-
-    <!-- Creations -->
-    <section id="creations">
-        <div class="container-fluid pt-5">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h1 class="text-uppercase pb-4">Our Creations</h1>
-                </div>
-            </div>
-            <div class="row gallery  ">
-                <div class="col-lg-3 col-6 gal-img p-0 d-block"> <img src="./resources/proj2.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-3 col-6 gal-img p-0 d-block"> <img src="./resources/proj1.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-3 col-6 gal-img p-0 d-block"> <img src="./resources/proj3.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-3 col-6 gal-img p-0 d-block"> <img src="./resources/proj4.jpg" alt="" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- about us section  -->
-    <section id="about-us">
-        <div class="container py-5">
-            <div id="about-title-row " class="row">
-                <div class="col-12 text-center">
-                    <h1 class="text-uppercase pb-4">about us</h1>
-                </div>
-            </div>
-            <div id="about-body-row" class="row">
-                <div id="about-text-col" class="col-12 col-lg-6 order-12 mt-lg-0 mt-4 text-lg-left text-center">
-                    <h5 class="font-weight-bold">
-                        We are a Moroccan based startup focused on web thechnology.
-                    </h5>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo ipsa
-                        consequatur iste consequuntur modi nostrum nemo. Tempore adipisci
-                        doloribus hic doloremque dicta veniam repudiandae, ea possimus
-                        recusandae deserunt, non corporis.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo ipsa
-                        consequatur iste consequuntur modi nostrum nemo. Tempore adipisci
-                        doloribus hic doloremque dicta veniam repudiandae, ea possimus
-                        recusandae deserunt, non corporis.
-                    </p>
-                    <button type="button" class="btn btn-outline-dark text-info text-uppercase font-weight-bold">
-                        Meet the team
-                    </button>
-                </div>
-                <div id="about-img-col" class="col-12 col-lg-6 order-1">
-                    <img src="./resources/design.jpg" alt="" class="img-fluid rounded" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- todo:add "what they said about us " -->
-    <!-- copy pasta  -->
+    </div>
 
     <!-- footer -->
     <footer>
@@ -244,6 +195,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
     <script src="./scripts/scripts.js"></script>
+    <script src="./scripts/contact-main.js"></script>
+
 </body>
 
 </html>
